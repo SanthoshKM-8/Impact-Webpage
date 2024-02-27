@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section class="text-white bg-dark" id="home">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark" id="nav">
+                <!-- <div class="container"> -->
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" width="30" height="30"
+                        class="mb-1 rounded-circle"> Impact</a>
+                <!-- <a class="navbar-brand" href="#"><img
+                        src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSdDLasyd52O4eOlUAAWIh8lk_ZnVkFr3xDtxtwC-5KFvdlusXo"
+                        alt="logo" width="30" height="30" class="mb-1 rounded-circle"> Impact</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item dropdown p-2">
+                            <a class="nav-link dropdown-toggle" href="#portfolio" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#portfolio">App</a></li>
+                                <li><a class="dropdown-item" href="#portfolio">Product</a></li>
+                                <li><a class="dropdown-item" href="#portfolio">Branding</a></li>
+                                <li><a class="dropdown-item" href="#portfolio">Books</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" data-bs-toggle="offcanvas" href="#blog" aria-controls="blog">Blog</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </nav>
+
+            <!-- Title -->
+            <!-- <div class="container"> -->
+            <div class="row text-center text-lg-start">
+                <div class="col-lg-6 p-5 mt-5">
+                    <h1>Welcome to Impact</h1>
+                    <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque
+                        eum quaerat.</p>
+                    <button type="button" class="btn btn-outline-light rounded-5" data-bs-toggle="tooltip"
+                        data-bs-placement="top" data-bs-title="Start your journey here &#x1F600;">
+                        Get Started
+                    </button>
+                </div>
+                <div class="col-lg-6 p-5">
+                    <img src="images/title-img.svg" alt="title-img" class="img-fluid">
+                    <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/hero-img.svg" alt="title-img" class="img-fluid"> -->
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container p-5">
+            <div class="text-center mb-5">
+                <h2>Our Services</h2>
+                <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt
+                    id nobis omnis tiledo stran delop</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="bi bi-activity"></i> Nesciunt Mete</h3>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos
+                                accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <button type="button" class="btn btn-outline-dark stretched-link" data-bs-toggle="modal"
+                                data-bs-target="#modal1">Read more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="bi bi-broadcast"></i> Eosle Commodi</h3>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos
+                                accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <button type="button" class="btn btn-outline-dark stretched-link" data-bs-toggle="modal"
+                                data-bs-target="#modal2">Read more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="bi bi-easel"></i> Ledo Markt</h3>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos
+                                accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <button type="button" class="btn btn-outline-dark stretched-link" data-bs-toggle="modal"
+                                data-bs-target="#modal3">Read more <i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal1Label"><i class="bi bi-activity"></i> Nesciunt Mete</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal2Label"><i class="bi bi-broadcast"></i> Eosle Commodi</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modal3Label"><i class="bi bi-easel"></i> Ledo Markt</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.
+                            Provident nihil minus qui consequatur non omnis maiores. Eos
+                            accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-light" id="testimonial">
+        <div class="container p-5">
+            <div class="text-center mb-5">
+                <h2>Testimonials</h2>
+                <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti
+                    fignissimos eos quam</p>
+            </div>
+            <div class="carousel slide" data-bs-ride="carousel" id="carouselIndicator">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="0"
+                        class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="1" class="bg-dark"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicator" data-bs-slide-to="2" class="bg-dark"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="d-flex flex-column align-items-center gap-2">
+                            <h3 class="testimonial-text text-center">
+                                <i class="bi bi-quote"></i>
+                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet.
+                                <div style="display: inline-block; transform: rotateY(180deg);"><i
+                                        class="bi bi-quote"></i></div>
+                            </h3>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="images/user.png" alt="user-img" width="50" height="50">
+                                <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                                <div>
+                                    <p class="m-0">Name1</p>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex flex-column align-items-center gap-2">
+                            <h3 class="testimonial-text text-center">
+                                <i class="bi bi-quote"></i>
+                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+                                veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam.
+                                <div style="display: inline-block; transform: rotateY(180deg);"><i
+                                        class="bi bi-quote"></i></div>
+                            </h3>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="images/user.png" alt="user-img" width="50" height="50">
+                                <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                                <div>
+                                    <p class="m-0">Name2</p>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex flex-column align-items-center gap-2">
+                            <h3 class="testimonial-text text-center">
+                                <i class="bi bi-quote"></i>
+                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat
+                                minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore.
+                                <div style="display: inline-block; transform: rotateY(180deg);"><i
+                                        class="bi bi-quote"></i></div>
+                            </h3>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="images/user.png" alt="user-img" width="50" height="50">
+                                <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                                <div>
+                                    <p class="m-0">Name3</p>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container p-5">
+            <div class="text-center mb-5">
+                <h2>Portfolio</h2>
+                <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem
+                    uia
+                    reprehenderit sunt deleniti</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card position-relative">
+                        <div class="card-body">
+                            <img src="images/app.jpeg" alt="app-img" class="card-img-top">
+                            <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/app-1.jpg" alt="app-img" class="card-img-top"> -->
+                            <h3 class="card-title mt-3">App</h3>
+                            <p class="card-subtitle">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                        <span
+                            class="position-absolute top-10 start-100 translate-middle badge rounded-circle p-1 bg-dark">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <span class="visually-hidden">favourite</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card position-relative">
+                        <div class="card-body">
+                            <img src="images/product.jpeg" alt="product-img" class="card-img-top">
+                            <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/product-1.jpg" alt="product-img" class="card-img-top"> -->
+                            <h3 class="card-title mt-3">Product</h3>
+                            <p class="card-subtitle">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                        <span
+                            class="position-absolute top-10 start-100 translate-middle badge rounded-circle p-1 bg-dark">
+                            <i class="bi bi-star-fill"></i>
+                            <span class="visually-hidden">add to favourite</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card position-relative">
+                        <div class="card-body">
+                            <img src="images/branding.jpeg" alt="branding-img" class="card-img-top">
+                            <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/branding-1.jpg" alt="branding-img" class="card-img-top"> -->
+                            <h3 class="card-title mt-3">Branding</h3>
+                            <p class="card-subtitle">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                        <span
+                            class="position-absolute top-10 start-100 translate-middle badge rounded-circle p-1 bg-dark">
+                            <i class="bi bi-star-fill"></i>
+                            <span class="visually-hidden">add to favourite</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card position-relative">
+                        <div class="card-body">
+                            <img src="images/books.jpeg" alt="books-img" class="card-img-top">
+                            <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/portfolio/books-2.jpg" alt="books-img" class="card-img-top"> -->
+                            <h3 class="card-title mt-3">Books</h3>
+                            <p class="card-subtitle">Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                        <span
+                            class="position-absolute top-10 start-100 translate-middle badge rounded-circle p-1 bg-dark">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <span class="visually-hidden">favourite</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-light" id="faq">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-4 text-lg-start text-center mb-5">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="accordion" id="accordionFAQ">
+                        <h3 class="accordion-header mb-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                1. Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body bg-white border-bottom mb-2">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </div>
+                        </div>
+                        <h3 class="accordion-header mb-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body bg-white border-bottom mb-2">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                        <h3 class="accordion-header mb-2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body bg-white border-bottom mb-2">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis
+                            </div>
+                        </div>
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                            <div class="accordion-body bg-white border-bottom">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="blog" aria-labelledby="offcanvasBlog">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBlog">Blog</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="card text-white bg-dark mb-3 border border-secondary">
+                <img src="images/blog-1.jpg" alt="blog1" class="img-fluid rounded-top">
+                <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-1.jpg" alt="blog1" class="img-fluid rounded-top"> -->
+                <div class="card-body">
+                    <p class="card-text">Politics</p>
+                    <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="images/user.png" alt="user" width="50" height="50">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                        <p class="mb-0">Name1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3 border border-secondary">
+                <img src="images/blog-2.jpg" alt="blog2" class="img-fluid rounded-top">
+                <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-2.jpg" alt="blog2" class="img-fluid rounded-top"> -->
+                <div class="card-body">
+                    <p class="card-text">Sports</p>
+                    <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="images/user.png" alt="user" width="50" height="50">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                        <p class="mb-0">Name2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white bg-dark border border-secondary">
+                <img src="images/blog-3.jpg" alt="blog3" class="img-fluid rounded-top">
+                <!-- <img src="https://bootstrapmade.com/demo/templates/Impact/assets/img/blog/blog-3.jpg" alt="blog3" class="img-fluid rounded-top"> -->
+                <div class="card-body">
+                    <p class="card-text">Entertainment</p>
+                    <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                    <div class="d-flex align-items-center gap-3">
+                        <img src="images/user.png" alt="user" width="50" height="50">
+                        <!-- <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="user-img" width="50" height="50"> -->
+                        <p class="mb-0">Name3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3 d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">More Blogs</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section>
+        <div class="container">
+            <h2></h2>
+            <p></p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/blog-1.jpg" alt="blog1" width="100%" height="100%">
+                        <div class="card-body">
+                            <p class="card-text">Politics</p>
+                            <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <img src="images/user.png" alt="user" width="50" height="50">
+                                <p>Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/blog-2.jpg" alt="blog1" width="100%" height="100%">
+                        <div class="card-body">
+                            <p class="card-text">Politics</p>
+                            <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <img src="images/user.png" alt="user" width="50" height="50">
+                                <p>Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/blog-3.jpg" alt="blog1" width="100%" height="100%">
+                        <div class="card-body">
+                            <p class="card-text">Politics</p>
+                            <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+                            <div class="d-flex align-items-center gap-3">
+                                <img src="images/user.png" alt="user" width="50" height="50">
+                                <p>Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container p-5">
+            <div class="text-center mb-5">
+                <h2>Contact</h2>
+                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 bg-light rounded p-3 mb-3">
+                    <div class="d-flex flex-column align-items-stretch gap-4">
+                        <div class="d-flex gap-3 bg-white rounded align-items-center p-2">
+                            <img src="images/geo-alt-fill.svg" alt="location" width="30" height="30">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                            </svg> -->
+                            <div>
+                                <p class="fs-4 mb-0">Location:</p>
+                                <p class="mb-0">Madurai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 bg-white rounded align-items-center p-2">
+                            <img src="images/envelope-fill.svg" alt="mail" width="30" height="30">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg> -->
+                            <div>
+                                <p class="fs-4 mb-0">Email:</p>
+                                <p class="mb-0">impact@email.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 bg-white rounded align-items-center p-2">
+                            <img src="images/phone-fill.svg" alt="phone" width="30" height="30">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                                <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0"/>
+                            </svg> -->
+                            <div>
+                                <p class="fs-4 mb-0">Call:</p>
+                                <p class="mb-0">+91 12345 67890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 p-3">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 mb-3 mb-lg-0">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="formName" class="col-form-lable">Name</label>
+                                    </div>
+                                    <div class="col-lg-10 col-md-10">
+                                        <input type="text" id="formName" class="form-control" placeholder="Name"
+                                            name="name" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2 col-md-2">
+                                        <label for="formEmail" class="col-form-lable">Email</label>
+                                    </div>
+                                    <div class="col-lg-10 col-md-10">
+                                        <input type="email" id="formEmail" class="form-control" placeholder="Email"
+                                            name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-3 row">
+                            <div class="col-lg-12 col-md-2">
+                                <label for="formMessage" class="col-form-label">Message</label>
+                            </div>
+                            <div class="col-lg-12 col-md-10">
+                                <textarea name="message" id="formMessage" class=" form-control" id="" rows="5"
+                                    placeholder="Message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-dark rounded">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-5">
+        <div class="mb-3" style="font-size: 24px;">
+            <a href="#home" aria-label="twitter"><i class="bi bi-twitter-x p-2"></i></a>
+            <a href="#home" aria-label="instagram"><i class="bi bi-instagram p-2"></i></a>
+            <a href="#home" aria-label="facebook"><i class="bi bi-facebook p-2"></i></a>
+            <a href="#home" aria-label="linkedin"><i class="bi bi-linkedin p-2"></i></a>
+        </div>
+        <p><i class="bi bi-c-circle"></i> Copyright <strong>Impact</strong>. All Rights Reserved</p>
+        <p>Designed with <i class="bi bi-heart-fill" style="color: #FF4A3E;"></i> by Santhosh</p>
+    </footer>
+
+    <!-- Bootstrap CDN Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

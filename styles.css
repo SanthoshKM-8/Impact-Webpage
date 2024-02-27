@@ -1,0 +1,27 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+footer a {
+    color: gray;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.rating {
+    color: black;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+    bottom: -35px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
